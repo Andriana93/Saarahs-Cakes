@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;800&family=Shrikhand&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Abhaya Libre", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Shrikhand", cursive;
+  color: #ff5757;
+}
+
+header {
+  background-color: white;
+  margin: auto -16px;
+  padding: 10px 32px;
+}
+
+header h3 {
+  color: black;
+  font-family: "Abhaya Libre", sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.big-heading {
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #f0ac8d;
+}
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* -------Background colour sections ------ */
+
+.pink-area {
+  background-color: #ffe4f5;
+}
+
+.white-area {
+  background-color: white;
+}
+
+/* ------------ title section ----------- */
+
+#title {
+  height: 400px;
+}
+
+#title .sub-heading {
+  padding-top: 3%;
+}
+
+/* --------- Features section ---------  */
+
+#features {
+  padding: 4% 2%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 6%;
+  margin: auto;
+}
+
+.feature-title {
+  font-size: 2.5rem;
+}
+
+.feature-text {
+  font-size: 1.3rem;
+}
+
+/*------Picture Background section -------- */
+
+.picture {
+  background-size: cover;
+  background: url("https://cdn.pixabay.com/photo/2017/05/23/22/33/happy-birthday-2338813_1280.jpg")
+    no-repeat center;
+  height: 50%;
+  margin: 0;
+  padding: 4% 12% 7% 12%;
+  object-fit: cover;
+}
+
+.picture .sub-heading {
+  color: white;
+  padding: 0% 3% 5% 3%;
+  font-size: 4rem;
+}
+
+/* ------Cake Menu Section ---------- */
+
+#cake-menu {
+  padding: 50px 100px;
+}
+
+.cake-title {
+  text-align: center;
+  color: #f0ac8d;
+}
+
+.cake-text {
+  text-align: center;
+}
+
+.cake-price {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.cake-card-column {
+  padding: 3% 2%;
+}
+
+.card img {
+  margin: 3% auto;
+  height: 200px;
+  width: 220px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.card img:hover {
+  opacity: 0.5;
+}

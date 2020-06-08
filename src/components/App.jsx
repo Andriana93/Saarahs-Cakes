@@ -32,7 +32,7 @@ function App() {
         </div>
       </section>
 
-      <div className="picture">
+      <div className="container-fluid picture">
         <h2 className="sub-heading">
           Make someone's day special with our cakes!
         </h2>

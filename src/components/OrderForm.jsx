@@ -8,10 +8,10 @@ const OrderForm = () => {
     address: ""
   });
 
-  const handleChange = event => {
+  const handleChange = (event) => {
     const { name, value } = event.target;
 
-    setOrder(prevValue => {
+    setOrder((prevValue) => {
       return {
         ...prevValue,
         [name]: value
@@ -21,7 +21,7 @@ const OrderForm = () => {
 
   const [isSubmitted, setSub] = useState(false);
 
-  const handleOrder = e => {
+  const handleOrder = (e) => {
     setSub(true);
     e.preventDefault();
   };
@@ -64,7 +64,7 @@ const OrderForm = () => {
         <div className="thank-you-note">
           <h1>
             Thank you {order.fName} {order.lName} for ordering the{" "}
-            {order.cakeOpt} cake!
+            {order.cakeOpt}!
           </h1>
         </div>
       ) : null}
